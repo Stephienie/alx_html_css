@@ -1,11 +1,13 @@
+@import url("0-styles.css");
+
 .features {
   text-align: center;
   padding: 80px 20px;
 }
 
-.feature-grid {
+.features-grid {
   display: flex;
-  gap: 30px;
+  gap: 40px;
   justify-content: center;
 }
 
@@ -17,3 +19,10 @@
   font-size: 48px;
   color: var(--primary);
 }
+
+@media (max-width: 480px) {
+  .features-grid {
+    flex-direction: column;
+  }
+}
+

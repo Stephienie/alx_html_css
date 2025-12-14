@@ -1,0 +1,18 @@
+@import url("2-styles.css");
+
+.contact {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+form {
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input, textarea {
+  padding: 10px;
+}

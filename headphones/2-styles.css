@@ -1,8 +1,10 @@
+@import url("1-styles.css");
+
 .results {
-  background: url(images/headphones_hero_2.jpg) center/cover;
+  background: url(images/headphones_hero_2.jpg) center/cover no-repeat;
   color: white;
-  text-align: center;
   padding: 80px 20px;
+  text-align: center;
 }
 
 .results-grid {
@@ -14,4 +16,12 @@
 .result {
   background: var(--primary);
   padding: 40px;
+  width: 120px;
+}
+
+@media (max-width: 480px) {
+  .results-grid {
+    flex-direction: column;
+    align-items: center;
+  }
 }
