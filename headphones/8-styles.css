@@ -1,0 +1,35 @@
+@import url("7-styles.css");
+
+/* ===== HAMBURGER MENU ===== */
+
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 28px;
+  color: white;
+  cursor: pointer;
+}
+
+/* Mobile styles */
+@media (max-width: 480px) {
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background-color: var(--dark);
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    padding: 20px;
+    gap: 15px;
+  }
+
+  .nav-links.show {
+    display: flex;
+  }
+}
