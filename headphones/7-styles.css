@@ -1,0 +1,21 @@
+@import url("4-styles.css");
+
+/* TASK 7 — ANIMATIONS */
+
+.feature {
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.feature:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+.result {
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.result:hover {
+  transform: scale(1.1);
+  opacity: 0.9;
+}
