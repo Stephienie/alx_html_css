@@ -1,0 +1,20 @@
+.what-we-do {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.features {
+  display: flex;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.feature {
+  flex: 1;
+}
+
+@media (max-width: 480px) {
+  .features {
+    flex-direction: column;
+  }
+}
