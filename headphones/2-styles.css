@@ -1,0 +1,17 @@
+.results {
+  background: url(images/headphones_hero_2.jpg) center/cover;
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.results-grid {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.result {
+  background: var(--primary);
+  padding: 40px;
+}

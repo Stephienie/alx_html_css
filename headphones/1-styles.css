@@ -1,20 +1,19 @@
-.what-we-do {
+.features {
   text-align: center;
   padding: 80px 20px;
 }
 
-.features {
+.feature-grid {
   display: flex;
-  gap: 40px;
-  margin-top: 40px;
+  gap: 30px;
+  justify-content: center;
 }
 
 .feature {
-  flex: 1;
+  max-width: 200px;
 }
 
-@media (max-width: 480px) {
-  .features {
-    flex-direction: column;
-  }
+.icon {
+  font-size: 48px;
+  color: var(--primary);
 }
